@@ -1,0 +1,51 @@
+body {
+background-color:gainsboro;
+}
+
+#container {
+margin: 50px auto; 
+background-color:white; 
+width: 350px; 
+padding:20px; 
+border-radius: 1rem;
+}
+
+#display {
+margin: 0px 10px;
+width:310px; 
+height:50px; 
+font-size:20px;
+border: none;
+border-bottom: solid 1px black;
+}
+
+#numberscontainer{
+margin: 10px 0px;
+width:330px;
+}
+
+.btndesign {
+border: solid 1px black;
+border-radius: 10px;
+background-color: white;
+font-size: 20px;
+cursor: pointer;
+margin: 10px 20px;
+padding: 7px 11px;
+}
+
+.btndesign:hover {
+color: red;
+}
+
+.clear {
+background-color: red;
+color: white;
+border-radius: 1rem;
+border: none;
+margin: 0px 20px;
+font-size: 20px;
+padding: 5px 10px;
+cursor: pointer;
+
+}
